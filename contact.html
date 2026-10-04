@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<section id="contact" class="py-5 bg-light">
+<form id="contact" class="py-5 bg-light" onsubmit=" return regex();">
 
     <div class="container">
 
@@ -31,7 +31,7 @@
 
             <div class="col-md-7">
 
-                <form>
+                
 
                     <div class="mb-3">
 
@@ -41,7 +41,7 @@
 
                         <input type="text"
                                class="form-control"
-                               placeholder="Enter your name" value="name"  id="n">
+                               placeholder="Enter your name"  id="n">
 
                     </div>
 
@@ -54,7 +54,7 @@
 
                         <input type="email"
                                class="form-control"
-                               placeholder="Enter your email" value="email" id="e">
+                               placeholder="Enter your email"  id="e">
 
                     </div>
 
@@ -73,11 +73,11 @@
 
 
                     <button type="submit"
-                            class="btn btn-primary" onsubmit="regex();">
+                            class="btn btn-primary" >
                         Send Message
                     </button>
 
-                </form>
+                
 
             </div>
 
@@ -85,7 +85,7 @@
 
     </div>
 
-</section>
+</form>
 
 
 <script>
@@ -112,7 +112,7 @@ function regex(){
     }
 
 }
-regex();
+
 
 
 
